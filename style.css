@@ -1,29 +1,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+   
 }
 nav{
-    height:100%;
-    width: 100%;
+
     background-color: aqua;
 }
 nav ul{
     float: right;
 }
 nav ul li{
-    display: inline-block;
-    line-height: 50px;
-}
-nav ul li a{
-    color: black;
-    text-transform: capitalize;
-    text-decoration:solid;
-    font-size: larger;
-    border-radius: 3px;
-    padding: 7px 13px;
-}
-.description{
-
-    
+    display: inline;
+    margin-right: 90px;
 }
