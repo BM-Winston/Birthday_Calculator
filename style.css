@@ -21,7 +21,9 @@ body{
 }
 .nav a:hover{
     color:wheat;
+    background-color: blue;
 }
+
 h1{
     font-size: 43px;
     text-align: center;
