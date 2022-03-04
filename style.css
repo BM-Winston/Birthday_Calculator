@@ -4,14 +4,18 @@ body{
     padding: 0%;
    
 }
-nav{
-
+.nav{
     background-color: aqua;
+    overflow: hidden;
+
 }
-nav ul{
+.nav a{
     float: right;
-}
-nav ul li{
-    display: inline;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 25px;
     margin-right: 90px;
+
 }
