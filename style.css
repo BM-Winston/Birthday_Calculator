@@ -19,6 +19,9 @@ body{
     margin-right: 90px;
 
 }
+.nav a:hover{
+    color:wheat;
+}
 h1{
     font-size: 43px;
     text-align: center;
