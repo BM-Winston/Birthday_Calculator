@@ -32,6 +32,7 @@ h1{
 p{
     text-align: center;
     padding: 38px;
+    font-size: 20px;
 }
 .description{
   
@@ -40,7 +41,7 @@ p{
     width: 70% ;
     background :rgb(235, 228, 228);
     margin-left: 150px;
-    height: 50vh;
+    height: 60vh;
 }
 footer{
     background-color: rgb(235,228, 228);
@@ -51,4 +52,11 @@ footer{
     display: flex;
     justify-content: center;
     padding: 90px;
+    font-size: 42px;
+}
+.direction{
+    text-align: center;
+    padding-top: 66px;
+    margin-bottom: 18px;
+    font-style: italic;
 }
