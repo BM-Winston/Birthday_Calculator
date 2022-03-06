@@ -35,7 +35,7 @@
 
 * CSS - which was used to style the pages 
 
-*JS - Which was used to give functionality to the web application
+* JS - Which was used to give functionality to the web application
 
 ## Reference
 * Materialize CSS
