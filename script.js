@@ -1,7 +1,7 @@
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
-const gender = {
-    male:{
+const akanNames = {
+    Male:{
         Sunday : "Kwasi",
         Monday : "Kwadwo",
         Tuesday : "Kwabena",
@@ -10,7 +10,7 @@ const gender = {
         Friday : "Kofi",
         Saturday : "Kwame",
     },
-    female:{
+    Female:{
         Sunday : "Akosua",
         Monday : "Adwoa",
         Tuesday : "Abenaa",
@@ -25,13 +25,14 @@ const gender = {
 
 
 
-const userForm = document.querySelector("form");
+const userForm = document.querySelector(".userForm");
 
 userForm.addEventListener("submit", validateUserInfo);
 function validateUserInfo(event) {
     event.preventDefault();
-    alert("submitted!")
+    // alert("submitted!")
     const userDate = document.querySelector("input[name=date]");
+    const gender = document.querySelector("input[name=gender]:checked")
 
     const convertedDate = new Date(userDate.value)
     const day = convertedDate.getDay();
@@ -40,9 +41,9 @@ function validateUserInfo(event) {
         
     }
     
-    
+   
     const weekDays = days[day]
-    console.log(gender["male"][weekDays]);
+    alert(akanNames[gender.value][weekDays]);
     
     
 }

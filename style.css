@@ -1,79 +1,70 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
-    padding: 0%;
-    background: url(./images/bd1.jpg);
-    background-size: cover;
-    /* backface-visibility: hidden; */
-    background-position: 100%;
-    background-attachment:fixed;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./images/bd1.jpg);
 
-    
-   
-    
-    
-   
+  background-size: cover;
+  /* backface-visibility: hidden; */
+  background-position: 100%;
+  background-attachment: fixed;
 }
 
-.nav{
-    background-color:rgb(212, 205, 204);
-    overflow: hidden;
-
+.nav {
+  background-color: rgb(212, 205, 204);
+  overflow: hidden;
 }
-.nav a{
-    float: right;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 16px;
-    font-size: 25px;
-    margin-right: 90px;
-
+.nav a {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 25px;
+  margin-right: 90px;
 }
-.nav a:hover{
-    color:wheat;
-    background-color: rgb(212,205, 204);
+.nav a:hover {
+  color: wheat;
+  background-color: rgb(212, 205, 204);
 }
 
-h1{
-    font-size: 43px;
-    text-align: center;
-    margin-top: 80px;
-    color: yellow;
+h1 {
+  font-size: 43px;
+  text-align: center;
+  margin-top: 80px;
+  color: yellow;
 }
-p{
-    text-align: center;
-    padding: 38px;
-    font-size: 20px;
+p {
+  text-align: center;
+  padding: 38px;
+  font-size: 20px;
 }
-.description{
-  
-    justify-content: center;
-    border: 10px solid white;
-    width: 70% ;
-    background :rgb(212, 205, 204);
-    margin-left: 150px;
-    height: 60vh;
-    color: black;
+.description {
+  justify-content: center;
+  border: 10px solid white;
+  width: 70%;
+  background: rgb(212, 205, 204);
+  margin-left: 150px;
+  height: 60vh;
+  color: black;
 }
-footer{
-    background-color: rgb(212,205, 204);
-    overflow: hidden;
-    color: black;
-    padding: 3px;
+
+footer {
+  background-color: rgb(212, 205, 204);
+  overflow: hidden;
+  color: black;
+  padding: 3px;
 }
-.form{
-    text-align: center;
-    padding: 90px;
-    font-size: 42px;
-    color: yellow;
-   
-    
+.form {
+  text-align: center;
+  padding: 90px;
+  font-size: 42px;
+  color: yellow;
 }
-.direction{
-    text-align: center;
-    padding-top: 66px;
-    margin-bottom: 18px;
-    font-style: italic;
-    color: yellow;
+.direction {
+  text-align: center;
+  padding-top: 66px;
+  margin-bottom: 18px;
+  font-style: italic;
+  color: yellow;
 }
