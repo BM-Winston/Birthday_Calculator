@@ -1,6 +1,6 @@
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 const gender ={
-    Male : {
+    Male =gender (
         Sunday:"Kwasi"
         Monday:"Kwadwo"
         Tuesday:"Kwabena"
@@ -8,8 +8,8 @@ const gender ={
         Thursday:"Yaw"
         Friday:"Kofi"
         Saturday:"Kwame"
-    }.
-    Female : {
+    ).
+    Female = [
         Sunday:"Akosua"
         Monday:"Adwoa"
         Tuesday:"Abenaa"
@@ -17,12 +17,12 @@ const gender ={
         Thursday:"Yaa"
         Friday:"Afua"
         Saturday:"Ama"
-}
+    ]
          
     }
 
 
-const userForm = document.querySelector("form")
+const userForm = document.querySelector("userForm")
 const userDate = document.querySelector("input[input=date]")
 
 userForm .addEventListener("submit", validateUserInfo)
