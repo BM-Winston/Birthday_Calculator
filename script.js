@@ -10,7 +10,7 @@ const gender = {
         Friday : "Kofi",
         Saturday : "Kwame",
     },
-    females:{
+    female:{
         Sunday : "Akosua",
         Monday : "Adwoa",
         Tuesday : "Abenaa",
@@ -35,6 +35,11 @@ function validateUserInfo(event) {
 
     const convertedDate = new Date(userDate.value)
     const day = convertedDate.getDay();
+    if (day<1 ) {
+        return alert("Invalid day. Enter valid day!")
+        
+    }
+    
     
     const weekDays = days[day]
     console.log(gender["male"][weekDays]);
