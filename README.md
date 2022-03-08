@@ -28,7 +28,7 @@
 * Open your web browser
 * Open github and go to the about secttion in my repository 
 * Launch a live server on the about section
-* OR alternatively click on this link - <a href="https://bm-winston.github.io/Birthday_Calculator/"></a>
+* OR alternatively click on this link - "https://bm-winston.github.io/Birthday_Calculator/
 
 [Go Back to the top](#portfolio)
 ## Technology Used
