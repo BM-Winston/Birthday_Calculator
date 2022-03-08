@@ -25,9 +25,10 @@
 
 ### Installation Process
 
-* Git clone repo link
-* cd name
-* Launch a live server on you index.html
+* Open your web browser
+* Open github and go to the about secttion in my repository 
+* Launch a live server on the about section
+* OR alternatively click on this link - <a href="https://bm-winston.github.io/Birthday_Calculator/"></a>
 
 [Go Back to the top](#portfolio)
 ## Technology Used
